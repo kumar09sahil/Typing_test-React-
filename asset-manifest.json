@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Typing_test-React-/static/css/main.b9ab01cf.css",
+    "main.js": "/Typing_test-React-/static/js/main.cfc42061.js",
+    "static/js/787.6649340e.chunk.js": "/Typing_test-React-/static/js/787.6649340e.chunk.js",
+    "static/media/milad-fakurian-GJKx5lhwU3M-unsplash.jpg": "/Typing_test-React-/static/media/milad-fakurian-GJKx5lhwU3M-unsplash.95d19f23ed8271ea83b0.jpg",
+    "index.html": "/Typing_test-React-/index.html",
+    "main.b9ab01cf.css.map": "/Typing_test-React-/static/css/main.b9ab01cf.css.map",
+    "main.cfc42061.js.map": "/Typing_test-React-/static/js/main.cfc42061.js.map",
+    "787.6649340e.chunk.js.map": "/Typing_test-React-/static/js/787.6649340e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9ab01cf.css",
+    "static/js/main.cfc42061.js"
+  ]
+}
