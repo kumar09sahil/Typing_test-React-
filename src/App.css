@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  background-image: url(./image/milad-fakurian-GJKx5lhwU3M-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.title {
+  font-family: 'Rosarivo', cursive;
+  position: relative;
+  left: -593px;
+  top: 27px;
+}
+
+.heading {
+  padding-top: 30px;
+  font-size: 45px;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.timer {
+  border: 1px solid black;
+  font-size: xx-large;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #f1eaeaa6;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.paragraph-box {
+  width: 80%;
+  max-width: 1100px; /* Adjust max-width as needed */
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 10px;
+  padding-left: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: justify;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.input-tab {
+  width: 50%;
+  max-width: 800px; /* Adjust max-width as needed */
+  padding: 20px;
+}
+
+.input-tab input:hover {
+  padding: 10px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.green-text {
+  background-color: green;
+}
+
+.red-text {
+  background-color: red;
+}
+
+.item {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px; /* Adjust gap as needed */
+  text-align: center;
+}
+
+.tag {
+  text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .paragraph-box {
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .input-tab {
+    width: 90%;
+  }
+}
+@media (max-width: 1260px) {
+  .heading {
+    padding-top: 0px;
+    font-size: 30x;
+    font-family: 'IBM Plex Serif', serif;
   }
 }
